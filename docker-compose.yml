@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  backend:
+    image: node:12-alpine
+    container_name: tla_backend
+    restart: always
+    working_dir: /app
+    ports:
+      - 3005:3005
+    volumes:
+      - ./:/app/
+    command: ['sh', '+x', './docker-entrypoint.sh']
+
+  

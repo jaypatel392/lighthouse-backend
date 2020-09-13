@@ -1,0 +1,40 @@
+{
+  "name": "the-light-house",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www NODE_ENV=production ",
+    "dev": "nodemon ./bin/www NODE_ENV=development "
+  },
+  "dependencies": {
+    "await-of": "^3.0.0",
+    "axios": "^0.19.2",
+    "braintree": "^2.23.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dayjs": "^1.8.24",
+    "debug": "^2.6.9",
+    "ejs": "^2.6.1",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "firebase": "^7.15.4",
+    "firebase-admin": "^8.12.1",
+    "handlebars": "^4.7.6",
+    "http-errors": "^1.8.0",
+    "i": "^0.3.6",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "paypal-rest-sdk": "^1.8.1",
+    "paytabs_api": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "rekuire": "^0.1.9",
+    "winston": "^2.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
